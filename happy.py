@@ -169,3 +169,9 @@ def Phredy_quality_fraction(qualitysequence: str, threshold: int = 30) -> float:
 #    return min([delete, insert, substi])
 
 
+def needleman_wunsch_alignment(seqA: str, seqB: str, gap: int, 
+                               scorefct: "Function score(a,b)") -> (str, str):
+    
+    return ("", "")
+
+
